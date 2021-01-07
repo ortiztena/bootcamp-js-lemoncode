@@ -1,0 +1,33 @@
+
+input {
+    max-width: 40px;
+    background-color: rgb(220, 236, 241) ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+   
+    
+}
+
+label {
+    
+    direction: rtl;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    padding-left: 10px;
+    margin: 20px
+}
+
+ div {
+  
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h4, button {
+    font-size: 30px;
+}

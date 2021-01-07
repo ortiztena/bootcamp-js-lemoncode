@@ -1,0 +1,21 @@
+{
+  "name": "Modulo_09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ortiztena/Modulo_09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ortiztena/Modulo_09/issues"
+  },
+  "homepage": "https://github.com/ortiztena/Modulo_09#readme"
+}

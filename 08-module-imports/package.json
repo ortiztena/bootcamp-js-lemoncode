@@ -1,0 +1,21 @@
+{
+  "name": "Modulo_08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ortiztena/Modulo_08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ortiztena/Modulo_08/issues"
+  },
+  "homepage": "https://github.com/ortiztena/Modulo_08#readme"
+}

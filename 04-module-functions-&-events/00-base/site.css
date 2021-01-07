@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    text-align: center;
+}
+
+label { 
+color: rgb(162, 216, 182);
+font-size: 1.2em;
+
+}
+input, select, button {
+    background-color: aliceblue;
+    width: 50px;
+    margin: 10px;
+    font-size: 1.2em;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-weight: 700;
+    text-align: center;
+}
+
+select {
+ width: 150px;
+}
+
+button {
+background-color: rgb(12, 161, 7);
+color: whitesmoke;
+}
+
+.container {
+    background-color: #0b4761;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+
+}
+
+input:hover, select:hover,  button:hover{
+border: 3px solid red
+}
