@@ -7,13 +7,13 @@ Keep the 4 buttons of the 4 operations.
 Add an equal or result button ("=" ).
 A sequential calculator works as follows:
 
-The user enters a first number.
+1. The user enters a first number.
 
-Click on an operation.
+2. Click on an operation.
 
-Then enter a second number.
+3. Then enter a second number.
 
-Click another operation again.
+4. Click another operation again.
 
 And so on... until you press the result button.
 
