@@ -1,5 +1,7 @@
 # Module 6 - Algorithms II - Laboratory
+
 ## Enigma
+
 In cryptography, one of the easiest ways to encode messages is to substitute or replace letters with different ones.
 
 For example, given the following sentence:
@@ -30,6 +32,7 @@ In code we could express it as:
 Where each letter is related to its transformed letter through the index or position it occupies in the string.
 
 We are going to implement a message encrypter / decrypter using this technique.
+
 ### Interface
 
 - It uses two 'text' elements, one that will contain the message in clear and another with the message encrypted.
@@ -41,6 +44,7 @@ A simple example could be the following:
 ![logo ](./logo/01-imagen-enigma-ui.png) 
 
 ### Algorithm
+
 The encryption algorithm is simple. The transformation that we are going to apply to each letter is going to be given by
 
     var plainAlphabet = "abcdefghijklmnopqrstuvwxyz:()!¡,'";
@@ -64,7 +68,9 @@ It also implements decryption, which is exactly the same but applying the transf
 
 
 This way, when the user enters a clear text and clicks on 'Encrypt', the message should be encrypted and displayed in the 'textarea' below. If you enter an encrypted message and press 'Decrypt', the message should be decrypted and displayed in the upper 'text box'.
+
 ### Test
+
 Could you decipher the following message?
 > 
 > 
@@ -72,6 +78,7 @@ Could you decipher the following message?
 
 
 ### Optional
+
 It simplifies the previous algorithm thanks to the following information:
 
 Strings are iterable and behave similarly to an array. They have methods that help us to search for elements. One of these methods that can be very useful is 'indexOf()`. This method returns the first index (in base 0) found for a given character, or what is the same, the position of the first occurrence of that character. That is, this method makes an iteration by the string looking for the character that you have provided, and as soon as it finds it, it returns the position of this character inside the array. Example:
@@ -80,6 +87,7 @@ Strings are iterable and behave similarly to an array. They have methods that he
     myString.indexOf("a"); // 1
 
 ## Random generator
+
 We are going to build a random generator that allows you to choose, at random, a certain amount of numbers from a minimum and a maximum. To understand it better, we will give you the signature that the function should have:
 
     var randomPick = (n, min, max) => {
