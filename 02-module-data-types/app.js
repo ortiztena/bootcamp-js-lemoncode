@@ -1,33 +1,17 @@
-// var hotel = {
-//     name: "Mencey",
-//     location: "Tenerife",
-//     img:
-//       "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/2f/e9/d7/iberostar-grand-mencey.jpg",
-//   };
-  
-// document.getElementById("name-hotel").innerHTML = "Hotel " + hotel.name;
-// document.getElementById("location-hotel").innerHTML =
-//     "Ubicado en " + hotel.location;
-// document.getElementById("img-hotel").src = hotel.img;
-
-// var rating = prompt("Puntuación: del 1 al 5");
-
-// document.getElementById("rating").innerHTML = rating + " estrellas";
-
 var stars = {
-    una:
+    one:
       "<span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
-    dos:
+    two:
       "<span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>",
-    tres:
+    three:
       "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span><span>&#9734;</span>",
-    cuatro:
+    four:
       "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9734;</span>",
-    cinco:
+    five:
       "<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>",
   };
 
-var rating = prompt("Puntuación: una, dos, tres, cuatro o cinco estrellas");
+var rating = prompt("Rating: one, two, three, four or five starts");
 
 document.getElementById("rating").innerHTML = stars[rating];
 
@@ -46,7 +30,7 @@ var hoteles = {
     },
   };
 
-var selectedHotel = prompt( "Indique hotel sobre el que quiere hacer la reseña: Mencey o Lani", );
+var selectedHotel = prompt( "Click on the hotel you want to rate: Mencey or Lani", );
 
 document.getElementById("name-hotel").innerHTML =
   "Hotel " + hoteles[selectedHotel].name;
@@ -56,6 +40,6 @@ document.getElementById("location-hotel").innerHTML =
 
 document.getElementById("img-hotel").src = hoteles[selectedHotel].img;
 
-var anonymous = confirm("¿Quiere que la reseña sea anónima?");
+var anonymous = confirm("Do you want an anonymous rate?");
 
 document.getElementById("anonymous").checked = anonymous;
