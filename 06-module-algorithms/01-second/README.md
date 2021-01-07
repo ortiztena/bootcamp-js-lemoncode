@@ -38,7 +38,7 @@ We are going to implement a message encrypter / decrypter using this technique.
 
 A simple example could be the following:
 
-![](./Campus Lemoncode_files/01-imagen-enigma-ui.png)
+![logo ](./logo/01-imagen-enigma-ui.png) 
 
 ### Algorithm
 The encryption algorithm is simple. The transformation that we are going to apply to each letter is going to be given by
