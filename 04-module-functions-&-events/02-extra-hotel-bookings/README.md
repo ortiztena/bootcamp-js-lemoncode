@@ -1,4 +1,4 @@
-**Hotel Reservations**
+<h3>Hotel Reservations</h3>
 
 We will simulate a hotel reservation form. To do this, add the following inputs to your HTML:
 
@@ -19,6 +19,6 @@ An example of stay would be:
 
 5 nights x Standard room with SPA for individual use + 2 nights of parking In this case the rate per night would be: (100 euros per night + 20 euros spa) at 75% for individual use = 90 euros/night x 5 nights = 450 euros + (10 euros parking x 2 nights) = 470 euros TOTAL.
 
-OPTIONAL
+<h3>OPTIONAL</h3>
 
 It dispenses with the calculate button and displays the total result as the user makes changes to the form.
