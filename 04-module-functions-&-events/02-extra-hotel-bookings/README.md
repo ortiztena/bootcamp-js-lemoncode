@@ -1,4 +1,4 @@
-Hotel Reservations
+Hotel Reservations # Headline H1
 
 We will simulate a hotel reservation form. To do this, add the following inputs to your HTML:
 
