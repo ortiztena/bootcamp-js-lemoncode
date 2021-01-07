@@ -1,10 +1,10 @@
-Calculadora
-Vamos a crear una calculadora sencilla. Para ello:
+Let's create a simple calculator. To do this:
 
-Como primer paso, crea 4 funciones, una para cada una de las 4 operaciones que vamos a impementar: suma, resta, multiplicación y división. Las funciones deberán tomar como entrada dos operando y devolver el resultado de aplicar la operación.
-Prueba las funciones simplemente jugando con ellas y mostrando el resultado a traves de la consola.
-Una vez tengas lo anterior, añade al HTML dos inputs numéricos, que serán los operandos A y B, y también 4 botones, uno por cada operación (suma, resta, multiplicación y división).
-El usuario deberá rellenar los 2 inputs con sendos operandos y clickar uno de los botones. El programa debe mostrar por pantalla el resultado de la operación.
-Opcional
+As a first step, create 4 functions, one for each of the 4 operations that we are going to implement: addition, subtraction, multiplication and division. The functions should take as input two operands and return the result of applying the operation.
 
-Si alguno de los operandos es vacío, muestra como resultado "Error".
+Test the functions simply by playing with them and displaying the result through the console.
+Once you have the above, add to the HTML two numerical inputs, which will be the operands A and B, and also 4 buttons, one for each operation (addition, subtraction, multiplication and division).
+The user must fill the 2 inputs with two operands and click one of the buttons. The program must show the result of the operation on the screen.
+Optional
+
+If any of the operands are empty, it displays "Error" as a result.
