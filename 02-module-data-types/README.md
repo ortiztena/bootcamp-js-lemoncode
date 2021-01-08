@@ -380,10 +380,10 @@ Since we cannot use anything that we have not explained in the BootCamp, one way
 
 *./app.js*
 
- // Objetivo 2 [Puntuación del hotel]
-// var rating = prompt("Puntuación: del 1 al 5");
+    // Objetivo 2 [Puntuación del hotel]
+    // var rating = prompt("Puntuación: del 1 al 5");
 
-// document.getElementById("rating").innerHTML = rating + " estrellas";
+    // document.getElementById("rating").innerHTML = rating + " estrellas";
 
     var stars = {
       una:
